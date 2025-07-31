@@ -1,0 +1,55 @@
+/* fonts.css */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+/* fonts.css */
+@import url('https://fonts.googleapis.com/css2?family=Antic+Didone&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* dot effect in footer links */
+.dot-link::before {
+  content: '•';
+  margin-right: 8px;
+  color: black; /* or your desired dot color */
+}
+
+/* scholarship design */
+.hex-nav-button {
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  background-color: white;
+  border: 2px solid black;
+  clip-path: polygon(
+    25% 0%,
+    75% 0%,
+    100% 50%,
+    75% 100%,
+    25% 100%,
+    0% 50%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  z-index: 30;
+  cursor: pointer;
+}
+
+.hex-nav-button:hover {
+  background-color: black;
+}
+
+.hex-nav-button:hover svg {
+  color: white;
+}
+
+body {
+  /* background: linear-gradient(to right, #fffefe, #cdcbcb); */
+  background: #fefefe;
+}
+
+html {
+  scroll-behavior: smooth;
+}

@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'Epika';
+    src: url('/fonts/NTEpika-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Epika';
+    src: url('/fonts/NTEpika-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Epika';
+    src: url('/fonts/NTEpika-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Epika';
+    src: url('/fonts/NTEpika-Thin.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+  }
+
+
+
+
+  .mg{
+    font-size: 5rem;
+
+  background: linear-gradient(
+    45deg,
+    #f5c732,
+    #eec018
+  );
+  background-size: 100%;
+  background-position: center;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  text-shadow: 1px 1px 1px rgba(213, 185, 27, 0.4);
+  }
+  
+  
