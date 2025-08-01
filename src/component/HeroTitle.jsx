@@ -12,13 +12,13 @@ function HeroTitle() {
                         Guiding You to a Global Future since 2009
                     </h2>   
                     <div className="flex flex-row gap-5 mt-2">
-                    <button className="relative transition-all duration-300 ease-in-out shadow-[0_10px_20px_rgba(0,0,0,0.2)] py-2 px-5 bg-[#583827] rounded-full flex items-center justify-center cursor-pointer text-white gap-2 font-bold border-[3px] border-white/30 outline-none overflow-hidden text-[15px] hover:scale-105 hover:border-white/60 group">
+                    <button className="relative transition-all duration-300 ease-in-out shadow-[0_10px_20px_rgba(0,0,0,0.2)] py-2 px-5 bg-[#3A2E2A] rounded-full flex items-center justify-center cursor-pointer text-white gap-2 font-bold border-[3px] border-white/30 outline-none overflow-hidden text-[15px] hover:scale-105 hover:border-white/60 group">
       View Scholarships
       
        
       <span className="shine"></span>
     </button>
-                    <button className="relative transition-all duration-300 ease-in-out shadow-[0_10px_20px_rgba(0,0,0,0.2)] py-2 px-5 bg-[#583827] rounded-full flex items-center justify-center cursor-pointer text-white gap-2 font-bold border-[3px] border-white/30 outline-none overflow-hidden text-[15px] hover:scale-105 hover:border-white/60 group">
+                    <button className="relative transition-all duration-300 ease-in-out shadow-[0_10px_20px_rgba(0,0,0,0.2)] py-2 px-5 bg-[#3A2E2A] rounded-full flex items-center justify-center cursor-pointer text-white gap-2 font-bold border-[3px] border-white/30 outline-none overflow-hidden text-[15px] hover:scale-105 hover:border-white/60 group">
       Check Eligibility
       <span className="shine"></span>
     </button>
