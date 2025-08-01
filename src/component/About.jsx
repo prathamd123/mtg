@@ -3,14 +3,14 @@ import '../font.css';
 
 const ImageWithText = () => {
   return (
-    <div>
+    <div className="bg-[#fefefe]">
       {/* Section Heading */}
-      <div className="flex justify-center m-auto">
+      <div className="flex justify-center m-auto ">
         <h1 style={{ fontFamily: 'Epika' }} className="text-6xl font-bold text-[#eaa223]">About</h1>
       </div>
 
       {/* Main Container */}
-      <div className="flex flex-col md:flex-row items-stretch max-w-6xl mx-auto px-4 py-12 gap-10">
+      <div className="flex flex-col md:flex-row items-stretch max-w-6xl mx-auto px-4 py-8 gap-10">
         
         {/* Left Side - Image */}
         <div className="w-full md:w-1/2">
