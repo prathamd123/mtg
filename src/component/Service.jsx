@@ -54,7 +54,7 @@ const Services = () => {
   return (
     <div className="py-8 px-2 m-0">
       <div className="max-w-5xl mx-auto text-center">
-        <h2 style={{ fontFamily: 'Epika' }} className="text-5xl font-bold mb-8 text-[#D4AF37]">Our Services</h2>
+        <h2 style={{ fontFamily: 'Epika' }} className="text-5xl font-bold mb-8 text-[#eaa223] ">Our Services</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2">
           {services.map((service) => (
             <div

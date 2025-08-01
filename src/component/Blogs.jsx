@@ -61,7 +61,7 @@ const ImageSlider = () => {
 
   return (
     <div className="w-full px-4 py-4">
-      <h1 style={{ fontFamily: 'Epika' }} className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-center text-[#D4AF37] mb-12">
+      <h1 style={{ fontFamily: 'Epika' }} className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-center text-[#eaa223] mb-12">
         Blogs
       </h1>
 
