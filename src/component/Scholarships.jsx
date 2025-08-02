@@ -23,7 +23,7 @@ export default function Carousel() {
   return (
     <div className="w-full flex flex-col items-center relative overflow-hidden px-2 sm:px-4">
       {/* Heading */}
-      <h1  style={{ fontFamily: 'Epika' }} className="metalic text-3xl sm:text-5xl md:text-6xl lg:text-7xl text-[#eaa223] font-extrabold z-40 text-center mb-4 mt-4">
+      <h1  style={{ fontFamily: 'Epika' }} className="bg-gradient-to-r from-gold1 via-gold2 to-gold3 bg-clip-text text-transparent font-cinzel text-2xl sm:text-3xl md:text-6xl leading-tight font-normal tracking-normal text-center m-6">
         Scholarships
       </h1>
 

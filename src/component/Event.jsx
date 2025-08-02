@@ -63,7 +63,7 @@ const ImageCarousel = () => {
   return (
     <div className="w-full bg-white py-8 px-4 sm:px-8 md:px-16 lg:px-24">
       {/* Heading */}
-      <h1 style={{ fontFamily: 'Epika' }} className="text-3xl sm:text-4xl lg:text-5xl text-[#eaa223] font-extrabold text-center mb-10">
+      <h1 style={{ fontFamily: 'Epika' }} className="text-3xl sm:text-4xl lg:text-5xl text-[#b5a369] font-extrabold text-center mb-10">
         Events
       </h1>
 

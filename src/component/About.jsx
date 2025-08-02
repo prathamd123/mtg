@@ -3,10 +3,10 @@ import '../font.css';
 
 const ImageWithText = () => {
   return (
-    <div className="bg-[#fefefe]">
+    <div className="bg-[#fefefe] py-8 px-2 m-0">
       {/* Section Heading */}
       <div className="flex justify-center m-auto ">
-        <h1 style={{ fontFamily: 'Epika' }} className="text-6xl font-bold text-[#eaa223]">About</h1>
+        <h1 style={{ fontFamily: 'Epika' }} className="text-5xl font-bold text-[#b5a369]">About</h1>
       </div>
 
       {/* Main Container */}

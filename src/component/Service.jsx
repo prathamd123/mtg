@@ -1,4 +1,5 @@
 import React from 'react';
+import '../index.css';
 import {
   FaPlaneArrival,
   FaHome,
@@ -54,7 +55,7 @@ const Services = () => {
   return (
     <div className="py-8 px-2 m-0 bg-[#fefefe]">
       <div className="max-w-5xl mx-auto text-center">
-        <h2 style={{ fontFamily: 'Epika' }} className="text-5xl font-bold mb-8 text-[#eaa223] ">Our Services</h2>
+        <h2 style={{ fontFamily: 'Epika' }} className="text-5xl font-bold mb-8 text-[#b5a369] ">Our Services</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2">
           {services.map((service) => (
             <div
@@ -77,7 +78,7 @@ const Services = () => {
               
               {/* Content */}
               <div className="mt-16 mb-4 z-10 relative">
-                <h3 className="text-2xl font-semibold text-gray-800 group-hover:text-white mb-2 transition-all duration-500 ease-in-out">
+                <h3   style={{ fontFamily: 'Anton, sans-serif' }}className="text-2xl  text-gray-800 group-hover:text-white mb-2 transition-all duration-500 ease-in-out">
                   {service.title}
                 </h3>
                 <p className="text-gray-600 group-hover:text-white mb-4 text-sm transition-all duration-500 ease-in-out">
